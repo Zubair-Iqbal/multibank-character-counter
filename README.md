@@ -165,11 +165,5 @@ Error: Input is empty or whitespace only.
 
 ---
 
-## Future Improvements
-
-* Publish as global npm CLI tool
-* Add TypeScript support
-* Add interactive prompt mode
-* Performance optimization for very large inputs
 
 
