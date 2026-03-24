@@ -1,0 +1,28 @@
+{
+  "name": "multibank-character-counter",
+  "version": "1.0.0",
+  "description": "CLI tool that counts character occurrences in a string, outputting them in order of first appearance.",
+  "main": "src/counter.js",
+  "bin": {
+    "char-count": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
